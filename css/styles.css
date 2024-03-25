@@ -1,0 +1,120 @@
+/* Reset */
+body, h1, p, button, select, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global Styles */
+body {
+    background-color: #f7e0c4; /* Light beige color */
+    color: #333; /* Dark gray color */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a slight depth effect */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #8b4513; /* Saddle brown color for the title */
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 20px); /* Adjusting width to fit container */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #e6b800; /* Yellow color for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Lighter shade of yellow on hover */
+}
+
+/* Pizza Description Styles */
+#pizza-description {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffe0b3; /* Light yellow background color */
+    border: 1px solid #cc9900; /* Darker yellow border */
+    border-radius: 5px;
+}
+
+/* Additional Images Styles */
+.additional-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.additional-images img {
+    width: 100px; /* Set width to 100px */
+    height: 100px; /* Set height to 100px */
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.additional-images img:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #8b0000; /* Dark red color for the footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 50%; /* Making images circular */
+}

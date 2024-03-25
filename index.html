@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    ,<script src="js/script.js"></script>
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="Pizza Logo">
+    </div>
+    <h1>Pizza Order Form</h1>
+</header>
+
+<!-- Main Content Section -->
+<main>
+    <div class="container">
+        <!-- Student Info Section -->
+        <p id="student-info">Click button to show student info</p>
+        <button id="show-info-btn">Show Student Info</button>
+
+        <!-- Pizza Order Form -->
+        <form id="pizza-form">
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="crust">Crust:</label>
+            <select id="crust" name="crust">
+                <option value="thin">Thin</option>
+                <option value="thick">Thick</option>
+                <option value="stuffed">Stuffed</option>
+            </select>
+
+            <label for="toppings">Toppings:</label>
+            <input type="text" id="toppings" name="toppings" placeholder="Enter toppings (comma-separated)">
+
+            <button type="submit" id="order-btn">Order</button>
+        </form>
+
+        <!-- Pizza Description -->
+        <div id="pizza-description"></div>
+    </div>
+
+    <!-- Images -->
+    <section class="additional-images">
+        <img src="images/1.webp" alt="Image 1">
+        <img src="images/2.webp" alt="Image 2">
+        <img src="images/3.jpeg" alt="Image 3">
+
+    </section>
+</main>
+
+<footer>
+    <div class="images-container">
+        <img src="images/footer.webp" alt="Image 6">
+    </div>
+</footer>
+
+</body>
+</html>
